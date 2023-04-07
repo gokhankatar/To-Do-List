@@ -1,0 +1,17 @@
+.form-check label.checked {
+    text-decoration: line-through;
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filters span.active{
+    color: red;
+}
+.filters span{
+    margin-right: 5px;
+    font-size: 15px;
+    column-rule-color: #4444;
+    cursor: pointer;
+}
